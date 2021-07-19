@@ -1,0 +1,269 @@
+* {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+.nav {
+    width: 100%;
+    font-size: 25px;
+    background-color: rgba(34, 40, 49, 0.75);
+    border: 4px solid#f05454;
+    text-align: center;
+}
+
+.nav div {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+}
+
+.nav a {
+    color: #ddd;
+}
+
+.nav a:hover {
+    color: #f05454;
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: border-width 0.2s linear;
+    transition: color 0.3s ease-in-out;
+
+}
+
+/* HOME */
+.home {
+    padding: 40px;
+}
+
+.pic-profile {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    border: 5px inset #f05454;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.pic-profile:hover {
+    border: 5px outset #f05454;
+}
+
+.p-information {
+    background-color: #222831;
+    font-weight: 500px;
+    font-size: 25px;
+    line-height: 50px;
+    color: #ddd;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid #f05454;
+    border-radius: 30px;
+    box-shadow: 0 10px 100px rgb(138, 138, 138);
+}
+
+.p-information th {
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* Skills */
+.skills-box {
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 10px;
+
+}
+
+.skills-head {
+    text-align: center;
+    font-size: 70px;
+}
+
+.skills table {
+    padding-left: 30px;
+    margin: 0 auto;
+}
+
+.skills-text {
+    font-size: 15px;
+    width: 33%;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.skills-img-box {
+    display: inline-block;
+    width: 25%;
+    margin-left: 6%;
+}
+
+.skills-img-box img {
+    border: 4px solid #30475e;
+    width: 100%;
+}
+
+.info {
+    color: #666;
+
+}
+
+/* Education */
+.edu-box {
+    background-color: #30475e;
+    padding-top: 30px;
+}
+
+.edu-head {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    margin: 0 0 30px 0;
+}
+
+.sch-name {
+    font-size: 40px;
+    color: #ddd;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+
+.sch-name span {
+    font-family: 'Train One', cursive;
+    /* School Name */
+}
+
+.sch-img-box {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 40px 0 40px 0;
+}
+
+.sch-img-box img {
+    width: 30vw;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+}
+
+
+.sch-img-box img:hover {
+    border: 5px solid black;
+}
+
+.school-middle,
+.edu-head {
+    background-color: #3a5168;
+}
+
+
+/* Back button */
+.back {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.back a {
+    border: 3px solid black;
+    background-color: #222831;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ddd;
+}
+
+.back a:hover {
+    background-color: #ddd;
+    color: #222831;
+    transition: color 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+    .p-information {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .p-information {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .p-information {
+        width: 70%;
+    }
+
+    .edu-head {
+        font-size: 40px;
+    }
+
+    .sch-img-box img {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .p-information {
+        width: 100%;
+    }
+
+    .skills-img-box {
+        width: 80%;
+    }
+
+    .edu-head {
+        font-size: 60px;
+    }
+
+    .skills-head {
+        font-size: 60px;
+    }
+
+    .sch-img-box img {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .sch-name {
+        font-size: 20px;
+    }
+
+    .sch-img-box img {
+        width: 70vw;
+    }
+
+    .edu-head {
+        font-size: 50px;
+    }
+
+    .skills-head {
+        font-size: 50px;
+    }
+
+    .pic-profile {
+        width: 300px;
+    }
+
+    .nav {
+        font-size: 20px;
+    }
+
+    .p-information {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .p-information {
+        font-size: 13px;
+    }
+}
