@@ -1,2 +1,1 @@
-# naxocist.github.io
-My personal website under development.
+# My personal website under development.
