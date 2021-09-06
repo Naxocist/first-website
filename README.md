@@ -1,1 +1,2 @@
-# My personal website under development.
+# My personal website.
+This is kinda my portfolio.
