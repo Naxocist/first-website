@@ -1,2 +1,2 @@
-# My first personal website
-for learning html css 
+# My first website
+to learn html and css
