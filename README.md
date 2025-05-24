@@ -1,2 +1,2 @@
-# My personal website.
-This is kinda my portfolio.
+# My first personal website
+for learning html css 
